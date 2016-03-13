@@ -4,7 +4,7 @@
 
 <persistence-unit name="goldasortePU" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <jta-data-source>java:/biometriaDS</jta-data-source>
+        <jta-data-source>java:jboss/datasources/PostgreSQLDS</jta-data-source>
 		
 			
 		<class>br.com.goldasorte.model.entity.Funcionario</class>
